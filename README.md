@@ -47,6 +47,20 @@ The classification models were evaluated using:
 
 An important observation from the analysis was the effect of **class imbalance**. High accuracy alone did not necessarily indicate strong diabetes detection performance, making precision, recall, F1-score, and ROC-AUC important for comparing the models.
 
+## Results & Visualizations
+
+### ROC Curve Comparison
+
+The ROC curve compares the performance of the classification models. Among the evaluated models, the Decision Tree achieved the highest AUC score of **0.65**, followed by the Neural Network (**0.53**) and Logistic Regression (**0.51**).
+
+![ROC Curve Comparison](roc-curve-full-clear.png)
+
+### K-Means Clustering
+
+K-Means clustering was applied with **3 clusters** to identify patterns within the medical student dataset. PCA was used to visualize the clusters in two dimensions.
+
+![K-Means Clustering](kmeans-clustering-full-clear.png)
+
 ## Key Result
 
 The Decision Tree achieved approximately **85.98% accuracy**, with **32.7% precision** and **37.92% recall** for the diabetes classification task.
